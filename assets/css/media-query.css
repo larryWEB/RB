@@ -1,0 +1,54 @@
+@media (min-width: 375px) {
+    .small-screen-img{
+width:100%;
+overflow:hidden;
+height:320px;
+}
+
+.home-img{
+width:100%;
+
+}
+
+@keyframes zoomInOut{
+   
+0%,100%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.1);
+}
+
+}
+
+
+.foot-nav-link-card{
+gap:20px;
+ 
+}
+
+   
+   }
+   
+
+@media (min-width: 375px){
+.foot-nav-link-card{
+gap:40px;
+ 
+}
+   
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .large-screen-img{
+    visibility:hidden;
+   }
+   
+   }
+   

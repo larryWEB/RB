@@ -1,0 +1,208 @@
+*{
+    padding:0px;
+    margin:0px;
+     box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    font-family:system-ui;
+}
+
+#heading-1{
+    background-color:white;
+    display:flex;
+  justify-content:space-between;
+  height:70px;
+  align-items:center;
+}
+
+.logo-name{
+  font-size:11px;
+  letter-spacing:4;
+  position:relative;
+  top:15px;
+  font-weight:bold;
+  left:20px;
+  word-spacing:15px;
+}
+
+.logo-name-abbr{
+  position:absolute;
+  left:54;
+  top:20;
+  font-size:20px;
+}
+
+.moveable-text{
+  position:relative;
+  bottom:8px;
+}
+
+#heading-1 i{
+ position:absolute;
+ font-size:25px;
+right:63px;
+ top:32
+}
+
+
+
+.menu-btns{
+ display:flex;
+ justify-content:start;
+ position:relative;
+top:10px;
+ margin-left:10px;
+ cursor: pointer;
+ right:20px;
+}
+
+
+.menu-btns:hover{
+color:;
+}
+
+
+.slide{
+ left:-100%;
+}
+
+.hide{
+ visibility:hidden;
+}
+
+.open{
+ position:absolute;
+}
+
+
+
+
+#menu-bar{
+    display:flex;
+     flex-direction:column; 
+     z-index:1;
+     position:absolute;
+     background-color:#0e0101;
+     height:220px;
+     transition: all 0.4s ease;
+    width:100%;
+    top:70px;
+     align-items:center;
+     gap:30px;
+    border-bottom-right-radius: 230px;
+     transition: 0.5s ease-in-out;
+    }
+
+    .nav-link{
+        margin:30px;
+        font-weight:400;
+         font-family: 'Raleway', sans-serif;
+        position:relative;
+right:90px;
+     font-weight:500;
+     font-size:12px;
+       }
+
+ .nav-link a{
+  text-decoration:none;
+  color:white;
+ }
+
+.small-screen-img{
+  display:flex;
+ justify-content:center;
+ align-items:center;
+ width:100%;
+ overflow:hidden;
+}
+
+.home-img{
+ width:100%;
+ animation:zoomInOut 15s linear infinite;
+}
+
+
+@keyframes zoomInOut{
+0%,100%{
+ transform:scale(1);
+}
+
+50%{
+ transform:scale(1.3);
+}
+
+
+}
+
+
+
+.chat{
+position:fixed;
+ top:93%;
+ display:flex;
+ justify-content:right;
+ align-items:right;
+right:20px;
+
+
+}
+
+.chat-text{
+background-color:white;
+width:110px;
+text-align:center;
+border-radius:8px;
+line-height:1.7;
+font-weight:500;
+ height:27px;
+ display:none;
+}
+
+.whatsapp-img{
+border-radius:100px;
+height:40px;
+ width:40px;
+margin-top:-9px;
+animation: scaleUp 3s ease-in-out infinite;
+}
+
+.foot-nav-link-card{
+ display:flex;
+gap:10px;
+ justify-content:center;
+ align-items:center;
+}
+
+footer{
+  font-size:13px;
+ position:relative;
+ top:30px;
+}
+
+.footer-children-card{
+  display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ gap:20px;
+margin-top:10px;
+}
+
+footer a{
+ text-decoration:none;
+ color:black;
+ font-size:13px;
+ font-weight:600;
+}
+
+hr{
+ position:relative;
+ top:25px;
+ height:2px;
+ background-color:#dedee9;
+ border:none;
+ 
+ 
+}
